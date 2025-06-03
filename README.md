@@ -33,6 +33,10 @@
 
 **CGA** usa señal digital TTL (usa niveles lógicos para representar colores).
 
+- El CGA (Color Graphics Adapter), introducido por IBM en 1981, fue la primera tarjeta gráfica a color para computadoras personales IBM PC. Ofrecía varios modos: texto (40×25 y 80×25), gráficos a 320×200 con 4 colores y 640×200 en monocromo. Aunque limitado a 16 colores, solo podían usarse 4 simultáneamente en gráficos, con combinaciones predefinidas. Su salida compuesta permitía técnicas como el "composite artifacting" para simular muchos más colores, especialmente en televisores NTSC.
+
+- CGA fue revolucionario para su tiempo, permitiendo los primeros videojuegos a color en PC, pero rápidamente fue superado por estándares como EGA y VGA. Aun así, sigue siendo una plataforma querida en la escena retro y demoscene, donde se han logrado proezas técnicas, como el famoso demo 8088 MPH, que muestra más de 1000 colores en una tarjeta CGA original gracias a manipulaciones avanzadas de hardware. Su importancia histórica y legado creativo siguen siendo celebrados hoy.
+
 ***VGA** usa señal analógica RGB.
 
 ---
