@@ -111,7 +111,7 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 #### ✅ Solución:
 
 1. **Remover la batería inmediatamente.**
-2. **Neutralizar residuos alcalinos** con **vinagre blanco** (con cuidado para no corroer metales).
+2. **Neutralizar residuos alcalinos**.
 3. Limpiar con isopropanol al 99%.
 4. Revisar continuidad de pistas afectadas.
 5. Reemplazar la batería.
