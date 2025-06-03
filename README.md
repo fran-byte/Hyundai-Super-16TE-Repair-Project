@@ -4,29 +4,30 @@
 
 ## 🔢 Información Técnica General
 
-| Atributo                  | Valor                               |
-| ------------------------- | ----------------------------------- |
-| **Modelo**                | Hyundai Super-16TE                  |
-| **Alias**                 | Hyundai E40080057                   |
-| **Fecha de Lanzamiento**  | Diciembre 1987                      |
-| **Tipo de PC**            | Personal Computer                   |
-| **CPU**                   | Intel 8088 @ 10 MHz                 |
-| **Coprocesador opcional** | Intel 8087 (soporte por jumper)     |
-| **Chipset**               | Texas Instruments TACT80101F        |
-| **RAM Máxima**            | 640 KB                              |
-| **Tipo de RAM**           | DIP-18 (4bit), DIP-16 (1bit)        |
-| **Bus de Expansión**      | 6x ISA 8-bit                        |
-| **BIOS**                  | Hyundai                             |
-| **Tamaño Placa**          | 355mm x 304mm (formato propietario) |
-| **Almacenamiento**        | Seagate 20MB HDD, FDD 5.25"         |
-| **Gráficos**              | CGA                                 |
-| **Monitor Original**      | 13" ámbar (monocromo)               |
-| **Sonido**                | Altavoz interno                     |
-| **Sistema Operativo**     | MS-DOS 5.0, Windows 1.02            |
-| **Conectores de Fuente**  | AT (P8 + P9, 6 pines c/u)           |
-| **Puertos**               | RS-232 x2, Paralelo, XT KBD         |
+| Atributo                  | Valor                                |
+| ------------------------- | ------------------------------------ |
+| **Modelo**                | Hyundai Super-16TE                   |
+| **Alias**                 | Hyundai E40080057                    |
+| **Fecha de Lanzamiento**  | Diciembre 1987                       |
+| **Tipo de PC**            | Personal Computer                    |
+| **CPU**                   | [Intel 8088 @ 10 MHz](docu/8088.pdf) |
+| **Coprocesador opcional** | Intel 8087 (soporte por jumper)      |
+| **Chipset**               | Texas Instruments TACT80101F         |
+| **RAM Máxima**            | 640 KB                               |
+| **Tipo de RAM**           | DIP-18 (4bit), DIP-16 (1bit)         |
+| **Bus de Expansión**      | 6x ISA 8-bit                         |
+| **BIOS**                  | Hyundai                              |
+| **Tamaño Placa**          | 355mm x 304mm (formato propietario)  |
+| **Almacenamiento**        | Seagate 20MB HDD, FDD 5.25"          |
+| **Gráficos**              | CGA                                  |
+| **Monitor Original**      | 13" ámbar (monocromo)                |
+| **Sonido**                | Altavoz interno                      |
+| **Sistema Operativo**     | MS-DOS 5.0, Windows 1.02             |
+| **Conectores de Fuente**  | AT (P8 + P9, 6 pines c/u)            |
+| **Puertos**               | RS-232 x2, Paralelo, XT KBD          |
 
 ---
+
 
 ## Nota sobre video:
 
