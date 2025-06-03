@@ -15,7 +15,7 @@
 | **Chipset**               | Texas Instruments TACT80101F           |
 | **RAM Máxima**            | 640 KB                                 |
 | **Tipo de RAM**           | DIP-18 (4bit), DIP-16 (1bit)           |
-| **Bus de Expansión**      | 6x ISA 8-bit                           |
+| **Bus de Expansión**      | [6x ISA 8-bit](doc/isa.jpg)            |
 | **BIOS**                  | Hyundai                                |
 | **Tamaño Placa**          | 355mm x 304mm (formato propietario)    |
 | **Almacenamiento**        | Seagate 20MB HDD, FDD 5.25"            |
