@@ -43,7 +43,7 @@
 
 ---
 
-##**Bus de expansión ISA**
+## **Bus de expansión ISA**
 
 * **Tipo:** ISA (Industry Standard Architecture) de 8 bits, heredado directamente del IBM PC original.
 * **Frecuencia:** Funciona típicamente a **4.77 MHz**, igual que el reloj del procesador 8088.
