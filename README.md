@@ -39,6 +39,8 @@
 
 ***VGA** usa señal analógica RGB.
 
+[CGA to VGA scaling with GBS-8220 board](https://oldcrap.org/2018/03/11/cga-to-vga-scaling-with-gbs-8220-board/)
+
 ---
 
 ##**Bus de expansión ISA**
