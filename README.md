@@ -25,6 +25,7 @@
 | **Sistema Operativo**     | MS-DOS 5.0, Windows 1.02               |
 | **Conectores de Fuente**  | [AT (P8 + P9, 6 pines c/u)](doc/at.jpg)|
 | **Puertos**               | RS-232 x2, Paralelo, XT KBD            |
+| **Conectores/Jumpers**    |  [ver](doc/jumpers.pdf)                |
 
 ---
 
