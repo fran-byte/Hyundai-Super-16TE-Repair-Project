@@ -85,8 +85,8 @@
 2. **Neutralizar residuos alcalinos** con **vinagre blanco** (con cuidado para no corroer metales).
 3. Limpiar con isopropanol al 99%.
 4. Revisar continuidad de pistas afectadas.
-5. Reemplazar con pila externa (ver: [Guía alternativa de batería](https://github.com/wiretap-retro/Not-A-Varta)).
-
+5. Reemplazar la batería.
+   
 ### ⛏️ Diagnóstico de componentes
 
 * **Cristal de reloj**: Busca un oscilador de **30MHz** que alimenta al 8284 (o integrado).
