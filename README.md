@@ -4,32 +4,32 @@
 
 ## 🔢 Información Técnica General
 
-| Atributo                  | Valor                                |
-| ------------------------- | ------------------------------------ |
-| **Modelo**                | Hyundai Super-16TE                   |
-| **Alias**                 | Hyundai E40080057                    |
-| **Fecha de Lanzamiento**  | Diciembre 1987                       |
-| **Tipo de PC**            | Personal Computer                    |
-| **CPU**                   | [Intel 8088 @ 10 MHz](doc/8088.pdf) |
-| **Coprocesador opcional** | Intel 8087 (soporte por jumper)      |
-| **Chipset**               | Texas Instruments TACT80101F         |
-| **RAM Máxima**            | 640 KB                               |
-| **Tipo de RAM**           | DIP-18 (4bit), DIP-16 (1bit)         |
-| **Bus de Expansión**      | 6x ISA 8-bit                         |
-| **BIOS**                  | Hyundai                              |
-| **Tamaño Placa**          | 355mm x 304mm (formato propietario)  |
-| **Almacenamiento**        | Seagate 20MB HDD, FDD 5.25"          |
-| **Gráficos**              | CGA                                  |
-| **Monitor Original**      | 13" ámbar (monocromo)                |
-| **Sonido**                | Altavoz interno                      |
-| **Sistema Operativo**     | MS-DOS 5.0, Windows 1.02             |
-| **Conectores de Fuente**  | AT (P8 + P9, 6 pines c/u)            |
-| **Puertos**               | RS-232 x2, Paralelo, XT KBD          |
+| Atributo                  | Valor                                  |
+| ------------------------- | ------------------------------------   |
+| **Modelo**                | Hyundai Super-16TE                     |
+| **Alias**                 | Hyundai E40080057                      |
+| **Fecha de Lanzamiento**  | Diciembre 1987                         |
+| **Tipo de PC**            | Personal Computer                      |
+| **CPU**                   | [Intel 8088 @ 10 MHz](doc/8088.pdf)    |
+| **Coprocesador opcional** | Intel 8087 (soporte por jumper)        |
+| **Chipset**               | Texas Instruments TACT80101F           |
+| **RAM Máxima**            | 640 KB                                 |
+| **Tipo de RAM**           | DIP-18 (4bit), DIP-16 (1bit)           |
+| **Bus de Expansión**      | 6x ISA 8-bit                           |
+| **BIOS**                  | Hyundai                                |
+| **Tamaño Placa**          | 355mm x 304mm (formato propietario)    |
+| **Almacenamiento**        | Seagate 20MB HDD, FDD 5.25"            |
+| **Gráficos**              | CGA                                    |
+| **Monitor Original**      | 13" ámbar (monocromo)                  |
+| **Sonido**                | Altavoz interno                        |
+| **Sistema Operativo**     | MS-DOS 5.0, Windows 1.02               |
+| **Conectores de Fuente**  | [AT (P8 + P9, 6 pines c/u)](doc/at.jpg)|
+| **Puertos**               | RS-232 x2, Paralelo, XT KBD            |
 
 ---
 
 
-## Nota sobre video:
+## **Video**
 
 **CGA** usa señal digital TTL (usa niveles lógicos para representar colores).
 
@@ -38,6 +38,26 @@
 - CGA fue revolucionario para su tiempo, permitiendo los primeros videojuegos a color en PC, pero rápidamente fue superado por estándares como EGA y VGA. Aun así, sigue siendo una plataforma querida en la escena retro y demoscene, donde se han logrado proezas técnicas, como el famoso demo 8088 MPH, que muestra más de 1000 colores en una tarjeta CGA original gracias a manipulaciones avanzadas de hardware. Su importancia histórica y legado creativo siguen siendo celebrados hoy.
 
 ***VGA** usa señal analógica RGB.
+
+---
+
+##**Bus de expansión ISA**
+
+* **Tipo:** ISA (Industry Standard Architecture) de 8 bits, heredado directamente del IBM PC original.
+* **Frecuencia:** Funciona típicamente a **4.77 MHz**, igual que el reloj del procesador 8088.
+* **Número de slots:** El Hyundai Super-16TE incluye entre **5 y 8 ranuras ISA de 8 bits**, dependiendo del modelo y configuración exacta.
+* **Compatibilidad:** Acepta tarjetas de expansión XT estándar (8 bits), como:
+
+  * Tarjetas CGA, MDA, Hercules.
+  * Tarjetas de sonido (como Sound Blaster 1.0).
+  * Controladores de disco duro y disquete (XT-IDE, etc.).
+  * Tarjetas de red ISA 8-bit (como algunas NE1000).
+* **Conectores:** Cada ranura tiene un conector de borde largo (62 contactos, 31 por lado) que encaja con las tarjetas ISA de 8 bits.
+
+---
+
+Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las capacidades del sistema, en un momento en que las funciones como sonido, gráficos avanzados o conectividad no venían integradas. En el caso del Super-16TE, el bus ISA también es útil hoy día para entusiastas retro que desean agregar tarjetas modernas adaptadas a 8 bits, como adaptadores CF-IDE, tarjetas VGA compatibles o interfaces seriales mejoradas.
+
 
 ---
 ## 🌐 Configuraciones por Jumpers
