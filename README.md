@@ -10,7 +10,7 @@
 | **Alias**                 | Hyundai E40080057                    |
 | **Fecha de Lanzamiento**  | Diciembre 1987                       |
 | **Tipo de PC**            | Personal Computer                    |
-| **CPU**                   | [Intel 8088 @ 10 MHz](docu/8088.pdf) |
+| **CPU**                   | [Intel 8088 @ 10 MHz](doc/8088.pdf) |
 | **Coprocesador opcional** | Intel 8087 (soporte por jumper)      |
 | **Chipset**               | Texas Instruments TACT80101F         |
 | **RAM Máxima**            | 640 KB                               |
