@@ -99,13 +99,14 @@
 
 | Categoría         | Modelo                        |
 | ----------------- | ----------------------------- |
+| CPU               | Intel 8088 @ 10MHz            |
+| Co-Procesador     | Intel 8087 (opcional)         |
 | RTC               | Ricoh RP5C15                  |
 | Floppy Controller | NEC µPD765 + Epson SED9420Cac |
 | UART              | 8250 (varios fabricantes)     |
 | RS-232 Driver     | MC1488                        |
 | RS-232 Receiver   | MC1489                        |
-| CPU               | Intel 8088 @ 10MHz            |
-| Co-Procesador     | Intel 8087 (opcional)         |
+
 
 ---
 
