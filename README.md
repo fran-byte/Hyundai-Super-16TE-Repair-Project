@@ -1,4 +1,7 @@
 # Hyundai Super-16TE: 
+
+![Hyundai Super-16 Turbo](doc/hyundai.jpg)
+
 # Guía de Datos Técnicos y Reparación Retrocomputadora
 
 ---
