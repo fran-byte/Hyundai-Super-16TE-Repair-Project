@@ -34,6 +34,7 @@
 ---
 
 
+
 ## **Video**
 
 **CGA** usa señal digital TTL (usa niveles lógicos para representar colores).
@@ -47,6 +48,8 @@
 [CGA to VGA scaling with GBS-8220 board](https://oldcrap.org/2018/03/11/cga-to-vga-scaling-with-gbs-8220-board/)
 
 ---
+
+![Hyundai Super-16 Turbo](doc/pcb.jpg)
 
 ## **Bus de expansión ISA**
 
