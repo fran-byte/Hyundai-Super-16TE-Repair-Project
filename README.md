@@ -184,7 +184,7 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 ### **3. Comprueba señales críticas**
 
 * **Conecta un osciloscopio** al pin del cristal principal y **verifica presencia de señal de reloj** (suele ser 14.318 MHz o 30 MHz dependiendo del diseño).
-* **Verifica la señal de reset**: debe empezar en bajo (LOW) y luego subir a alto (HIGH) unos milisegundos tras energizar el sistema.
+* **Verifica la señal de reset**: debe empezar en bajo (LOW) y luego subir a alto (HIGH) unos milisegundos tras enceder el sistema.
 * **Comprueba la actividad del chipset y BIOS**: si hay voltajes pero ningún signo de vida (ni reloj, ni reset, ni acceso a RAM), **sospecha del BIOS o chipset**. Reprograma el BIOS si puedes.
 
 ---
@@ -221,7 +221,7 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 | **1. Confirmación de alimentación básica** | Mide las tensiones de la PSU | +5V, +12V, -12V y GND en los conectores AT (P8 y P9). Verifica con multímetro entre rojo (+5V), amarillo (+12V), azul (-12V), negro (GND). |
 | | Comprueba el LED de encendido (P6) | Si el LED no enciende, revisa la fuente, el botón de encendido o el fusible. |
 | **2. Verifica señales fundamentales del sistema** | Señal de reloj al CPU | Mide en el pin 19 del 8088. Debe haber una señal de 10 MHz (generada por el divisor del cristal de 30 MHz). Si no hay señal, verifica: Cristal oscilador, Chip 8284 o equivalente, Voltaje de alimentación al oscilador. |
-| | Señal de RESET al CPU | Pin 21 del 8088. Al energizar, debe estar brevemente en bajo (LOW) y luego pasar a alto (HIGH). Si se queda en bajo o flotante, revisa circuito de reset (generalmente involucra una resistencia, capacitor y a veces un supervisor). |
+| | Señal de RESET al CPU | Pin 21 del 8088. Al enceder, debe estar brevemente en bajo (LOW) y luego pasar a alto (HIGH). Si se queda en bajo o flotante, revisa circuito de reset (generalmente involucra una resistencia, capacitor y a veces un supervisor). |
 | **3. Revisión de BIOS y Chipset** | Actividad del BIOS (EPROM 27128 o 27256) | Usa un analizador lógico o pin probe en los pines: /CE (Chip Enable) y /OE (Output Enable). Si no hay actividad, el BIOS no está siendo leído → posible fallo del BIOS, socket, o señal de dirección. |
 | | Asegura correcta configuración del jumper del BIOS (P2) | 27256: Pins 11 & 12 cerrados. 27128: Pins 13 & 14 cerrados. ⚠️ Reprograma o reemplaza BIOS si está corrupto. |
 | **4. Verifica la RAM** | Mide que haya +5V en pines VCC de los chips RAM | |
