@@ -216,8 +216,6 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 
 ### **7. Resumen de reparación**
 
-¡Claro! Aquí tienes la secuencia de testeo para el Hyundai Super-16TE en formato de tabla:
-
 | **Paso** | **Descripción** | **Acciones** |
 |----------|-----------------|--------------|
 | **1. Confirmación de alimentación básica** | Mide las tensiones de la PSU | +5V, +12V, -12V y GND en los conectores AT (P8 y P9). Verifica con multímetro entre rojo (+5V), amarillo (+12V), azul (-12V), negro (GND). |
@@ -238,7 +236,6 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 | | | ✅ Si arranca y da beep único: CPU, RAM y BIOS están funcionando. |
 | **🛠️ Consejos adicionales** | | Reemplaza condensadores electrolíticos antiguos cerca del conector AT. Revisa fugas por batería Ni-Cd y limpia trazas. Asegúrate de que los jumpers del banco de RAM y tipo de monitor estén correctamente configurados (especialmente si usas CGA y no aparece imagen). El RTC RP5C15 no bloquea el arranque, pero puede causar problemas si hay fuga. |
 
-Espero que esto te sea útil. ¿Necesitas algo más?
 
  ---
 
