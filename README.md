@@ -214,8 +214,31 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 
 ---
 
-### **7. Documentación técnica adicional**
+### **7. Resumen de reparación**
 
-...
----
+¡Claro! Aquí tienes la secuencia de testeo para el Hyundai Super-16TE en formato de tabla:
+
+| **Paso** | **Descripción** | **Acciones** |
+|----------|-----------------|--------------|
+| **1. Confirmación de alimentación básica** | Mide las tensiones de la PSU | +5V, +12V, -12V y GND en los conectores AT (P8 y P9). Verifica con multímetro entre rojo (+5V), amarillo (+12V), azul (-12V), negro (GND). |
+| | Comprueba el LED de encendido (P6) | Si el LED no enciende, revisa la fuente, el botón de encendido o el fusible. |
+| **2. Verifica señales fundamentales del sistema** | Señal de reloj al CPU | Mide en el pin 19 del 8088. Debe haber una señal de 10 MHz (generada por el divisor del cristal de 30 MHz). Si no hay señal, verifica: Cristal oscilador, Chip 8284 o equivalente, Voltaje de alimentación al oscilador. |
+| | Señal de RESET al CPU | Pin 21 del 8088. Al energizar, debe estar brevemente en bajo (LOW) y luego pasar a alto (HIGH). Si se queda en bajo o flotante, revisa circuito de reset (generalmente involucra una resistencia, capacitor y a veces un supervisor). |
+| **3. Revisión de BIOS y Chipset** | Actividad del BIOS (EPROM 27128 o 27256) | Usa un analizador lógico o pin probe en los pines: /CE (Chip Enable) y /OE (Output Enable). Si no hay actividad, el BIOS no está siendo leído → posible fallo del BIOS, socket, o señal de dirección. |
+| | Asegura correcta configuración del jumper del BIOS (P2) | 27256: Pins 11 & 12 cerrados. 27128: Pins 13 & 14 cerrados. ⚠️ Reprograma o reemplaza BIOS si está corrupto. |
+| **4. Verifica la RAM** | Mide que haya +5V en pines VCC de los chips RAM | |
+| | Probar bancos de RAM individualmente | Retira RAM de Bank 1–3, deja solo Bank 0 (8x 41256). Verifica funcionamiento. Repite con Bank 1. |
+| | Inspecciona por chips calientes o sin contacto | ⚠️ Si el POST da beeps de error, anótalos (p.ej., 3 beeps seguidos = RAM). |
+| **5. Chequeo del CPU (Intel 8088)** | Asegura que el CPU | Está bien insertado en el zócalo. Tiene voltaje correcto en el pin VCC (pin 40). Tiene reloj (pin 19) y reset (pin 21). |
+| | | ✅ Reemplaza temporalmente por otro 8088 si es posible. |
+| **6. POST y señalización** | Conecta speaker (P8) y escucha beeps del BIOS | Un beep = inicio exitoso. Múltiples = error (RAM, video, CPU). |
+| | Actividad en el puerto paralelo o ISA | Usa analizador lógico si no hay video. Puede mostrar señales de que está intentando iniciar. |
+| **7. Prueba mínima de arranque** | Solo componentes esenciales | CPU, RAM mínima (Bank 0), BIOS, Fuente. |
+| | | ❌ Desconecta: HDD, FDD, Todas las tarjetas ISA, Periféricos. |
+| | | ✅ Si arranca y da beep único: CPU, RAM y BIOS están funcionando. |
+| **🛠️ Consejos adicionales** | | Reemplaza condensadores electrolíticos antiguos cerca del conector AT. Revisa fugas por batería Ni-Cd y limpia trazas. Asegúrate de que los jumpers del banco de RAM y tipo de monitor estén correctamente configurados (especialmente si usas CGA y no aparece imagen). El RTC RP5C15 no bloquea el arranque, pero puede causar problemas si hay fuga. |
+
+Espero que esto te sea útil. ¿Necesitas algo más?
+
+ ---
 
