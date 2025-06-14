@@ -4,6 +4,9 @@
 
 # Guía de Datos Técnicos y Reparación Retrocomputadora
 
+![Hacker](doc/hacker.jpg)
+
+
 ---
 
 ## 🔢 Información Técnica General
