@@ -116,6 +116,7 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 
 * **Ubicación**: Cerca del RTC (Ricoh RP5C15).
 * **Riesgo**: Ácido puede dañar pistas internas y componentes adyacentes.
+* Podriamos sustituirla por la clasica pila de botón, revisar [Repositorio](https://github.com/wiretap-retro/Not-A-Varta)
 
 #### ✅ Solución:
 
