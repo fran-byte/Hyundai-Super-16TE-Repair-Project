@@ -164,7 +164,7 @@ La **salida ALE (Address Latch Enable)** en un microprocesador **Intel 8088** se
 
 ---
 
-### **2. Caída de voltaje de 5.1V a 4.67V**
+### **2. Caída de voltaje en nuestro caso de 5.1V a 4.67V**
 #### **Posibles causas:**
 - **Resistencia alta en el conector AT o cables de alimentación**:  
   - Los conectores AT antiguos pueden tener **contactos oxidados**, aumentando la resistencia y causando caída de voltaje.  
