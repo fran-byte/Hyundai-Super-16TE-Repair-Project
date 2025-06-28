@@ -110,6 +110,21 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 
 ---
 
+* Otros chips a tener en cuenta:
+
+  | Categoría                     | Chip                                | Marca/Fabricante              | Función principal                               |
+|------------------------------|-------------------------------------|-------------------------------|--------------------------------------------------|
+| **Chipset**                  | TACT80101F                          | Texas Instruments             | Chipset principal del sistema                   |
+| **Reloj en tiempo real (RTC)**| RP5C15                              | Ricoh                         | Controlador de reloj/calendario                 |
+| **Controlador de disquete**  | uPD765                              | NEC                           | Controlador de disquete                         |
+| **Separador de datos FDD**   | SED9420Cac                          | Epson                         | Separador de datos para unidad de disquete      |
+| **UART (serie)**             | 8250                                | Varias marcas                 | Controlador de comunicación serial (RS-232)     |
+| **Transmisor RS-232**        | MC1488                              | Varias marcas                 | Transmisor de señal RS-232                      |
+| **Receptor RS-232**          | MC1489                              | Varias marcas                 | Receptor de señal RS-232                        |
+| **CPU soportadas**           | 8088, 8087                          | Intel u otros compatibles     | Procesador y coprocesador matemático            |
+
+---
+
 ## 🚧 Reparación & Prevención de Daños
 
 ### ⚠️ Problema conocido: **Batería Ni-Cd con fuga**
