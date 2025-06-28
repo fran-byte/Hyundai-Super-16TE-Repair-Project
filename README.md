@@ -149,6 +149,7 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 ![SignalClockCpu](doc/clk8088.jpg) 
 
 * Una forma de saber si la CPU está funcionando es su Salida ALE:
+* Como puede verse se activa cada 4 ciclos de clock. 
 
 La **salida ALE (Address Latch Enable)** en un microprocesador **Intel 8088** se utiliza para **separar las líneas de dirección y datos**, ya que el 8088 multiplexa (comparte) los **8 bits inferiores de la dirección (A0-A7)** con los **8 bits de datos (D0-D7)** en los mismos pines físicos.
 
