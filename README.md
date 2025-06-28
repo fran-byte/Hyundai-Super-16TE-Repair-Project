@@ -176,7 +176,7 @@ La **salida ALE (Address Latch Enable)** en un microprocesador **Intel 8088** se
 
 - **Cortocircuito o consumo excesivo en la placa**:  
   - Un chip defectuoso (ej. RAM, controlador de bus) puede estar consumiendo demasiada corriente.  
-  - Mide el consumo total de la placa (debería ser ~1-2A para un sistema 8088 básico).  
+  - Mide el consumo total de la placa.  
 
 #### **Soluciones:**
 ✅ **Limpiar los contactos del conector AT** con alcohol isopropílico.  
