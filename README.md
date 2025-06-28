@@ -143,7 +143,56 @@ La **salida ALE (Address Latch Enable)** en un microprocesador **Intel 8088** se
    - Los **8 bits inferiores (A0-A7)** se comparten con el bus de datos (D0-D7).
    - **ALE se activa (nivel alto)** para indicar que en ese momento los pines multiplexados contienen la dirección y deben ser capturados por un **latch externo**
 
+### **1. Problema con la señal de Clock (CLK)**
+#### **Posibles causas:**
+- **Condensadores de desacoplamiento (decoupling) dañados o secos**:  
+  - Los Condensadores cerca del **8284 (generador de clock)** o del **8088** pueden estar perdiendo capacidad, causando ruido en la señal.  
+  - Verifica si hay capacitores hinchados o con fugas (especialmente los electrolíticos y cerámicos cerca del oscilador).
 
+- **Carga excesiva en la salida del CLK**:  
+  - Si el **clock** está alimentando muchos dispositivos (ej. controladores de bus, periféricos), la señal puede degradarse.  
+  - Prueba desconectando periféricos no esenciales para ver si mejora.
+
+- **Problemas en el cristal o circuito oscilador**:  
+  - El cristal de **15 MHz** (usado en el 8284 para generar el CLK de 5 MHz) podría estar defectuoso.  
+  - Si tienes un osciloscopio, revisa la señal en el **pin X1/X2 del 8284** (debería ser una onda sinusoidal limpia a 15 MHz).
+
+#### **Soluciones:**
+✅ **Reemplazar Condensadores de desacoplamiento** cerca del 8284 y 8088.  
+✅ **Verificar el cristal y los resistores/capacitores asociados** al oscilador.  
+✅ **Conectar una carga mínima** (solo CPU + RAM) para descartar interferencias.  
+
+---
+
+### **2. Caída de voltaje de 5.1V a 4.67V**
+#### **Posibles causas:**
+- **Resistencia alta en el conector AT o cables de alimentación**:  
+  - Los conectores AT antiguos pueden tener **contactos oxidados**, aumentando la resistencia y causando caída de voltaje.  
+  - Usa un multímetro para medir la resistencia entre los pines de +5V (debería ser casi 0Ω).
+
+- **Fuente de alimentación (PSU) débil o desgastada**:  
+  - Los Condensadores de filtro en la PSU pueden estar secos, reduciendo su capacidad de entrega de corriente.  
+  - Prueba con otra fuente AT (si es posible) o verifica el rizo (ripple) en los +5V con un osciloscopio (debería ser < 50mV).
+
+- **Cortocircuito o consumo excesivo en la placa**:  
+  - Un chip defectuoso (ej. RAM, controlador de bus) puede estar consumiendo demasiada corriente.  
+  - Mide el consumo total de la placa (debería ser ~1-2A para un sistema 8088 básico).  
+
+#### **Soluciones:**
+✅ **Limpiar los contactos del conector AT** con alcohol isopropílico.  
+✅ **Probar con otra fuente de alimentación** (preferiblemente una AT conocida como buena).  
+✅ **Medir consumo de corriente** para descartar cortos o componentes defectuosos.  
+
+---
+
+### **3. Ruido y armónicos en la señal**
+#### **Posibles causas:**
+- **Mala tierra (GND) o loops de tierra**:  
+  - Si la placa no tiene una conexión a tierra sólida, el ruido se acopla en las señales.  
+  - Verifica que todos los **GND** del conector AT estén bien conectados.  
+
+- **Falta de filtrado en la alimentación**:  
+  - Los **Condensadores de filtro +5V** cerca del 8088 y el 8284 pueden estar fallando.  
 
 * **POST BIOS**: Checar beep o actividad en puerto paralelo (analizador lógico opcional).
 
