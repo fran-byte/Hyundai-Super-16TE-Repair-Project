@@ -130,6 +130,9 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 
 * **Cristal de reloj**: Busca un oscilador de **30MHz** que alimenta al 8284 (o integrado).
 * **Señal de reloj CPU**: Pin 19 del 8088 (debería tener 10MHz).
+
+[SignalClockCpu](clk8088.jpg) 
+
 * **POST BIOS**: Checar beep o actividad en puerto paralelo (analizador lógico opcional).
 
 ---
