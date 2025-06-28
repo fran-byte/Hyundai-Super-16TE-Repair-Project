@@ -112,7 +112,7 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 
 * Otros chips a tener en cuenta:
 
-  | Categoría                     | Chip                                | Marca/Fabricante              | Función principal                               |
+| Categoría                     | Chip                                | Marca/Fabricante              | Función principal                               |
 |------------------------------|-------------------------------------|-------------------------------|--------------------------------------------------|
 | **Chipset**                  | TACT80101F                          | Texas Instruments             | Chipset principal del sistema                   |
 | **Reloj en tiempo real (RTC)**| RP5C15                              | Ricoh                         | Controlador de reloj/calendario                 |
