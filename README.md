@@ -147,7 +147,7 @@ La **salida ALE (Address Latch Enable)** en un microprocesador **Intel 8088** se
 #### **Posibles causas:**
 - **Condensadores de desacoplamiento (decoupling) dañados o secos**:  
   - Los Condensadores cerca del **8284 (generador de clock)** o del **8088** pueden estar perdiendo capacidad, causando ruido en la señal.  
-  - Verifica si hay capacitores hinchados o con fugas (especialmente los electrolíticos y cerámicos cerca del oscilador).
+  - Verifica si hay Condensadores hinchados o con fugas (especialmente los electrolíticos y cerámicos cerca del oscilador).
 
 - **Carga excesiva en la salida del CLK**:  
   - Si el **clock** está alimentando muchos dispositivos (ej. controladores de bus, periféricos), la señal puede degradarse.  
