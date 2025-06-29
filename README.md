@@ -110,7 +110,7 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 
 ---
 
-* Otros chips a tener en cuenta:
+* 🎓 Otros chips a tener en cuenta:
 
 | Categoría                     | Chip                                | Marca/Fabricante              | Función principal                               |
 |------------------------------|-------------------------------------|-------------------------------|--------------------------------------------------|
@@ -122,8 +122,6 @@ Este bus fue crucial en la época, ya que permitía a los usuarios ampliar las c
 | **Transmisor RS-232**        | MC1488                              | Varias marcas                 | Transmisor de señal RS-232                      |
 | **Receptor RS-232**          | MC1489                              | Varias marcas                 | Receptor de señal RS-232                        |
 | **CPU soportadas**           | 8088, 8087                          | Intel u otros compatibles     | Procesador y coprocesador matemático            |
-
----
 
 ## 🚧 Reparación & Prevención de Daños
 
@@ -211,21 +209,6 @@ La **salida ALE (Address Latch Enable)** en un microprocesador **Intel 8088** se
   - Los **Condensadores de filtro +5V** cerca del 8088 y el 8284 pueden estar fallando.  
 
 * **POST BIOS**: Checar beep o actividad en puerto paralelo (analizador lógico opcional).
-
----
-
-## 🎓 Chips Principales
-
-| Categoría         | Modelo                        |
-| ----------------- | ----------------------------- |
-| CPU               | Intel 8088 @ 10MHz            |
-| Co-Procesador     | Intel 8087 (opcional)         |
-| RTC               | Ricoh RP5C15                  |
-| Floppy Controller | NEC µPD765 + Epson SED9420Cac |
-| UART              | 8250 (varios fabricantes)     |
-| RS-232 Driver     | MC1488                        |
-| RS-232 Receiver   | MC1489                        |
-
 
 ---
 
