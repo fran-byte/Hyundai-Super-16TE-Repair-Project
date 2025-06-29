@@ -9,7 +9,7 @@
 
 ## 🔢 Información Técnica General
 
-| Atributo                  | Valor                                  |
+| Atributo                  | Descripción                            |
 | ------------------------- | ------------------------------------   |
 | **Modelo**                | Hyundai Super-16TE                     |
 | **Alias**                 | Hyundai E40080057                      |
