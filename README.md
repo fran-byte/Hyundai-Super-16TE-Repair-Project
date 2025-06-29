@@ -251,7 +251,7 @@ La **salida ALE (Address Latch Enable)** en un microprocesador **Intel 8088** se
 | +12V        | Amarillo             | Motores de discos, ventiladores        |
 | 0V (GND)    | Negro                | Masa común para todos los voltajes     |
 | -12V        | Morado               | Interfaces RS-232, tarjetas antiguas    |
-| -5V         | Blanco (opcional)    | Algunas tarjetas ISA, memorias DRAM    |
+| -5V         | Blanco               | Algunas tarjetas ISA, memorias DRAM    |
 
 ---
 
