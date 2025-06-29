@@ -4,8 +4,9 @@
 
 # Guía de Datos Técnicos y Reparación Retrocomputadora
 
-<img src="doc/OIG2.jpeg" alt="Hacker" style="display: block; margin: auto; width: 50%;">
-
+<div style="text-align: center;">
+  <img src="doc/OIG2.jpeg" alt="Hacker" style="width: 50%;">
+</div>
 
 
 ---
