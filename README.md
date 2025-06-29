@@ -5,7 +5,7 @@
   <img src="doc/OIG2.jpeg" alt="Hacker" style="width:45%; object-fit: contain;">
 </div>
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: nowrap;">
-    <img src="doc/1000.jpeg" alt="Hacker" style="width:45%; object-fit: contain;">
+    <img src="doc/1000.jpg" alt="Hacker" style="width:45%; object-fit: contain;">
 </div>
 
 
