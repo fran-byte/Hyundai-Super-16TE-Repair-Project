@@ -1,8 +1,8 @@
 # Hyundai Super-16TE: 
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="doc/hyundai.jpg" alt="Hyundai Super-16 Turbo" style="width:50%;">
-  <img src="doc/OIG2.jpeg" alt="Hacker" style="width:50%;">
+<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: nowrap;">
+  <img src="doc/hyundai.jpg" alt="Hyundai Super-16 Turbo" style="width:45%; object-fit: contain;">
+  <img src="doc/OIG2.jpeg" alt="Hacker" style="width:45%; object-fit: contain;">
 </div>
 
 
