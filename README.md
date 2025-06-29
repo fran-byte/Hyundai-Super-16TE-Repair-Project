@@ -241,9 +241,6 @@ La **salida ALE (Address Latch Enable)** en un microprocesador **Intel 8088** se
 * **Inspecciona el fusible de la fuente**. Si está abierto, reemplázalo con uno de igual capacidad. **No lo puentes**.
 * **Mide las salidas de la PSU** (+5V, +12V y GND) usando el multímetro. Si no hay voltaje, **repara o reemplaza la fuente**.
 
-Claro, aquí tienes un resumen breve y claro de las salidas de una fuente de alimentación AT (con los colores más comunes):
-
-
 ---
 
 🔌 Resumen de salidas de fuente AT:
