@@ -1,6 +1,6 @@
 # Hyundai Super-16TE: 
 
-| <img src="doc/OIG2.jpeg" alt="Hacker" width="50%"> | <img src="doc/hyundai.jpg" alt="Hyundai Super-16 Turbo" width="50%"> |
+| <img src="doc/hyundai.jpg" alt="Hyundai Super-16 Turbo" width="100%"> | <img src="doc/OIG2.jpeg" alt="Hacker" width="50%"> | 
 |:--------------------------------------------------:|:------------------------------------------------------------------:|
 
 
