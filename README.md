@@ -1,7 +1,9 @@
 # Hyundai Super-16TE: 
 
-| <img src="doc/hyundai.jpg" alt="Hyundai Super-16 Turbo" width="100%"> | <img src="doc/OIG2.jpeg" alt="Hacker" width="50%"> | 
-|:--------------------------------------------------:|:------------------------------------------------------------------:|
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="doc/hyundai.jpg" alt="Hyundai Super-16 Turbo" style="width:50%;">
+  <img src="doc/OIG2.jpeg" alt="Hacker" style="width:50%;">
+</div>
 
 
 # Guía de Datos Técnicos y Reparación Retrocomputadora
