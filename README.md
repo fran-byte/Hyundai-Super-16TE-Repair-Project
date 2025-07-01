@@ -190,7 +190,7 @@ La **salida ALE (Address Latch Enable)** en un microprocesador **Intel 8088** se
 - **Fuente de alimentación (PSU) débil o desgastada**:  
   - Los Condensadores de filtro en la PSU pueden estar secos, reduciendo su capacidad de entrega de corriente.  
   - Prueba con otra fuente AT (si es posible) o verifica el rizo (ripple) en los +5V con un osciloscopio (debería ser < 50mV).
-  - Sustitución condensadores de filtrado de la etapa del secundario de la F.A., cocretamente la linea de +5V, aunque seria recomendable, realizar este cambio en los condensadores de filtrado del resto de tensiones.
+  - Sustitución condensadores de filtrado de la etapa del secundario de la F.A., concretamente la línea de +5V, aunque sería recomendable, realizar este cambio en los condensadores de filtrado del resto de tensiones.
 
 - **Cortocircuito o consumo excesivo en la placa**:  
   - Un chip defectuoso (ej. RAM, controlador de bus) puede estar consumiendo demasiada corriente.  
